@@ -1,6 +1,6 @@
 # instagram
 
-A new Flutter project.
+Instagram投稿画面の模写
 
 ## Getting Started
 
