@@ -123,11 +123,13 @@ class MyPage extends StatelessWidget {
                             style: OutlinedButton.styleFrom(
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(4))),
-                            child: const Text('フォロー中',
-                                style: TextStyle(
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 12)),
+                            child: const Text(
+                              'フォロー中',
+                              style: TextStyle(
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 12),
+                            ),
                           ),
                         ),
                         const SizedBox(width: 4),
@@ -137,11 +139,13 @@ class MyPage extends StatelessWidget {
                             style: OutlinedButton.styleFrom(
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(4))),
-                            child: const Text('メッセージ',
-                                style: TextStyle(
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 12)),
+                            child: const Text(
+                              'メッセージ',
+                              style: TextStyle(
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 12),
+                            ),
                           ),
                         ),
                       ],
